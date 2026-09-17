@@ -344,6 +344,22 @@ a:hover {
     font-weight: 500;
 }
 
+.notice-block {
+    background-color: var(--primary-light);
+    border-left: 4px solid var(--primary);
+    padding: 1.25rem 1.5rem;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: 1.5rem 0;
+}
+
+.notice-block p:last-child {
+    margin-bottom: 0;
+}
+
+.notice-block p {
+    color: var(--text-main);
+}
+
 /* Footer */
 .site-footer {
     background-color: var(--card-bg);
